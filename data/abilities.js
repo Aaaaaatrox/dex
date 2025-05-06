@@ -3127,5 +3127,13 @@ exports.BattleAbilities = {
         "num": 311,
         "desc": "This Pokemon's Grass-type moves have their priority increased by 1.",
         "shortDesc": "This Pokemon's Grass-type moves have their priority increased by 1."
+    },
+    "mysticcharm": {
+        "flags": {},
+        "name": "mysticcharm",
+        "rating": 1,
+        "num": 311,
+        "desc": "Special Attacks used by this Pokemon reduce their targets' Speed by 1 stage.",
+        "shortDesc": "Special Attacks used by this Pokemon reduce their targets' Speed by 1 stage."
     }
 }

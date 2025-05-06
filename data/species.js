@@ -3458,7 +3458,8 @@ exports.BattlePokedex = {
         "heightm": 1.8,
         "weightkg": 75.0,
         "prevo": "Golbat",
-        "evoType": "levelFriendship",
+        "evoLevel": 32,
+        "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
     },
@@ -4395,7 +4396,7 @@ exports.BattlePokedex = {
         "heightm": 1.7,
         "weightkg": 76.6,
         "prevo": "Psyduck",
-        "evoLevel": 33,
+        "evoLevel": 25,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -5436,7 +5437,7 @@ exports.BattlePokedex = {
         "heightm": 1.6,
         "weightkg": 55.0,
         "prevo": "Tentacool",
-        "evoLevel": 30,
+        "evoLevel": 28,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -5625,9 +5626,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Magnet Pull",
+            "0": "Galvanize",
             "1": "Sturdy",
-            "H": "Galvanize"
+            "H": "Magnet Pull"
         },
         "color": "Brown",
         "name": "Geodude-Alola",
@@ -5670,9 +5671,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Magnet Pull",
+            "0": "Galvanize",
             "1": "Sturdy",
-            "H": "Galvanize"
+            "H": "Magnet Pull"
         },
         "color": "Brown",
         "name": "Graveler-Alola",
@@ -5717,9 +5718,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Magnet Pull",
+            "0": "Galvanize",
             "1": "Sturdy",
-            "H": "Galvanize"
+            "H": "Magnet Pull"
         },
         "color": "Brown",
         "name": "Golem-Alola",
@@ -5728,7 +5729,8 @@ exports.BattlePokedex = {
         "baseSpecies": "Golem",
         "forme": "Alola",
         "prevo": "Graveler-Alola",
-        "evoType": "trade",
+        "evoItem": "Linking Cord",
+        "evoType": "useItem",
         "evoCondition": "",
         "tier": "unobtainable"
     },
@@ -5820,7 +5822,7 @@ exports.BattlePokedex = {
             "Rapidash-Galar"
         ],
         "prevo": "Ponyta",
-        "evoLevel": 40,
+        "evoLevel": 30,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -6065,8 +6067,8 @@ exports.BattlePokedex = {
         ],
         "prevo": "Slowpoke",
         "evoItem": "King's Rock",
-        "evoType": "tradeItem",
-        "evoCondition": "while holding",
+        "evoType": "useItem",
+        "evoCondition": "",
         "tier": "unobtainable"
     },
     "slowbromega": {
@@ -6366,8 +6368,8 @@ exports.BattlePokedex = {
         "heightm": 1.2,
         "weightkg": 180.0,
         "prevo": "Magneton",
-        "evoMap": "New Mauville",
-        "evoType": "levelMap",
+        "evoItem": "Metal Alloy",
+        "evoType": "useItem",
         "evoCondition": "",
         "tier": "unobtainable"
     },
@@ -6665,7 +6667,7 @@ exports.BattlePokedex = {
         "heightm": 1.7,
         "weightkg": 120.0,
         "prevo": "Seel",
-        "evoLevel": 34,
+        "evoLevel": 28,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -7700,7 +7702,8 @@ exports.BattlePokedex = {
         "heightm": 0.4,
         "weightkg": 2.5,
         "evos": [
-            "Exeggutor"
+            "Exeggutor",
+            "Exeggutor-Alola"
         ],
         "tier": "unobtainable"
     },
@@ -7789,6 +7792,10 @@ exports.BattlePokedex = {
         "weightkg": 415.6,
         "baseSpecies": "Exeggutor",
         "forme": "Alola",
+        "prevo": "Exeggcute",
+        "evoItem": "Sun Stone",
+        "evoType": "useItem",
+        "evoCondition": "",
         "tier": "unobtainable"
     },
     "cubone": {
@@ -7828,7 +7835,8 @@ exports.BattlePokedex = {
         "heightm": 0.4,
         "weightkg": 6.5,
         "evos": [
-            "Marowak"
+            "Marowak",
+            "Marowak-Alola"
         ],
         "tier": "unobtainable"
     },
@@ -7922,6 +7930,10 @@ exports.BattlePokedex = {
         "weightkg": 34.0,
         "baseSpecies": "Marowak",
         "forme": "Alola",
+        "prevo": "Cubone",
+        "evoItem": "Fire Stone",
+        "evoType": "useItem",
+        "evoCondition": "",
         "tier": "unobtainable"
     },
     "marowakalolatotem": {
@@ -8422,7 +8434,7 @@ exports.BattlePokedex = {
         "heightm": 1.9,
         "weightkg": 120.0,
         "prevo": "Rhyhorn",
-        "evoLevel": 42,
+        "evoLevel": 32,
         "evoType": "level",
         "evoCondition": "",
         "evos": [
@@ -8468,8 +8480,8 @@ exports.BattlePokedex = {
         "weightkg": 282.8,
         "prevo": "Rhydon",
         "evoItem": "Protector",
-        "evoType": "tradeItem",
-        "evoCondition": "while holding",
+        "evoType": "useItem",
+        "evoCondition": "",
         "tier": "unobtainable"
     },
     "happiny": {
@@ -8842,7 +8854,7 @@ exports.BattlePokedex = {
         "heightm": 1.2,
         "weightkg": 25.0,
         "prevo": "Horsea",
-        "evoLevel": 32,
+        "evoLevel": 25,
         "evoType": "level",
         "evoCondition": "",
         "evos": [
@@ -9484,7 +9496,7 @@ exports.BattlePokedex = {
         "heightm": 1.4,
         "weightkg": 40.6,
         "prevo": "Smoochum",
-        "evoLevel": 30,
+        "evoLevel": 28,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -9567,7 +9579,7 @@ exports.BattlePokedex = {
         "heightm": 1.1,
         "weightkg": 30.0,
         "prevo": "Elekid",
-        "evoLevel": 30,
+        "evoLevel": 28,
         "evoType": "level",
         "evoCondition": "",
         "evos": [
@@ -9695,7 +9707,7 @@ exports.BattlePokedex = {
         "heightm": 1.3,
         "weightkg": 44.5,
         "prevo": "Magby",
-        "evoLevel": 30,
+        "evoLevel": 28,
         "evoType": "level",
         "evoCondition": "",
         "evos": [
@@ -11912,7 +11924,8 @@ exports.BattlePokedex = {
         "evoType": "level",
         "evoCondition": "",
         "evos": [
-            "Typhlosion"
+            "Typhlosion",
+            "Typhlosion-Hisui"
         ],
         "tier": "unobtainable"
     },
@@ -12000,6 +12013,10 @@ exports.BattlePokedex = {
         "weightkg": 69.8,
         "baseSpecies": "Typhlosion",
         "forme": "Hisui",
+        "prevo": "Quilava",
+        "evoMap": "Abandoned Ship",
+        "evoType": "levelMap",
+        "evoCondition": "",
         "tier": "unobtainable"
     },
     "totodile": {
@@ -13007,7 +13024,8 @@ exports.BattlePokedex = {
         "heightm": 0.4,
         "weightkg": 8.5,
         "prevo": "Azurill",
-        "evoType": "levelFriendship",
+        "evoLevel": 6,
+        "evoType": "level",
         "evoCondition": "",
         "evos": [
             "Azumarill"
@@ -15339,7 +15357,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Regenerator",
-            "1": "Natural Cure",
+            "1": "Solid Rock",
             "H": "Hustle"
         },
         "color": "Pink",
@@ -18125,7 +18143,7 @@ exports.BattlePokedex = {
         "prevo": "Kirlia",
         "evoItem": "Dawn Stone",
         "evoType": "useItem",
-        "evoCondition": "if Male gender",
+        "evoCondition": "",
         "tier": "unobtainable"
     },
     "gallademega": {
@@ -18871,8 +18889,8 @@ exports.BattlePokedex = {
         "heightm": 1.4,
         "weightkg": 340.0,
         "prevo": "Nosepass",
-        "evoMap": "New Mauville",
-        "evoType": "levelMap",
+        "evoItem": "Metal Alloy",
+        "evoType": "useItem",
         "evoCondition": "",
         "tier": "unobtainable"
     },
@@ -19218,7 +19236,7 @@ exports.BattlePokedex = {
         "heightm": 0.9,
         "weightkg": 120.0,
         "prevo": "Aron",
-        "evoLevel": 32,
+        "evoLevel": 25,
         "evoType": "level",
         "evoCondition": "",
         "evos": [
@@ -19804,8 +19822,9 @@ exports.BattlePokedex = {
         "heightm": 0.3,
         "weightkg": 2.0,
         "prevo": "Budew",
-        "evoType": "levelFriendship",
-        "evoCondition": "during the day",
+        "evoLevel": 6,
+        "evoType": "level",
+        "evoCondition": "",
         "evos": [
             "Roserade"
         ],
@@ -20187,7 +20206,6 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Oblivious",
-            "1": "Simple",
             "H": "Own Tempo"
         },
         "color": "Yellow",
@@ -20243,7 +20261,7 @@ exports.BattlePokedex = {
             "Camerupt-Mega"
         ],
         "prevo": "Numel",
-        "evoLevel": 33,
+        "evoLevel": 30,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -21096,7 +21114,7 @@ exports.BattlePokedex = {
         "heightm": 1.1,
         "weightkg": 32.8,
         "prevo": "Corphish",
-        "evoLevel": 30,
+        "evoLevel": 28,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -22125,7 +22143,6 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Inner Focus",
-            "1": "Ice Body",
             "H": "Moody"
         },
         "color": "Gray",
@@ -22167,7 +22184,6 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Inner Focus",
-            "1": "Ice Body",
             "H": "Moody"
         },
         "color": "Gray",
@@ -22182,7 +22198,7 @@ exports.BattlePokedex = {
             "Glalie-Mega"
         ],
         "prevo": "Snorunt",
-        "evoLevel": 42,
+        "evoLevel": 22,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -22262,9 +22278,9 @@ exports.BattlePokedex = {
         "heightm": 1.3,
         "weightkg": 26.6,
         "prevo": "Snorunt",
-        "evoItem": "Dawn Stone",
+        "evoItem": "Ice Stone",
         "evoType": "useItem",
-        "evoCondition": "if Female gender",
+        "evoCondition": "",
         "tier": "unobtainable"
     },
     "spheal": {
@@ -22345,7 +22361,7 @@ exports.BattlePokedex = {
         "heightm": 1.1,
         "weightkg": 87.6,
         "prevo": "Spheal",
-        "evoLevel": 32,
+        "evoLevel": 22,
         "evoType": "level",
         "evoCondition": "",
         "evos": [
@@ -22390,7 +22406,7 @@ exports.BattlePokedex = {
         "heightm": 1.4,
         "weightkg": 150.6,
         "prevo": "Sealeo",
-        "evoLevel": 44,
+        "evoLevel": 30,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -24901,7 +24917,7 @@ exports.BattlePokedex = {
         "prevo": "Combee",
         "evoLevel": 21,
         "evoType": "level",
-        "evoCondition": "if Female gender",
+        "evoCondition": "",
         "tier": "unobtainable"
     },
     "pachirisu": {
@@ -25233,8 +25249,8 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Sticky Hold",
-            "1": "Storm Drain",
-            "H": "Sand Force"
+            "1": "Sand Force",
+            "H": "Storm Drain"
         },
         "color": "Purple",
         "name": "Gastrodon",
@@ -26045,8 +26061,9 @@ exports.BattlePokedex = {
             "Lucario-Mega"
         ],
         "prevo": "Riolu",
-        "evoType": "levelFriendship",
-        "evoCondition": "during the day",
+        "evoLevel": 30,
+        "evoType": "level",
+        "evoCondition": "",
         "tier": "unobtainable"
     },
     "lucariomega": {
@@ -26285,9 +26302,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Anticipation",
-            "1": "Dry Skin",
-            "H": "Poison Touch"
+            "0": "Poison Touch",
+            "1": "Poison Point",
+            "H": "Dry Skin"
         },
         "color": "Blue",
         "name": "Croagunk",
@@ -26328,16 +26345,16 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Anticipation",
-            "1": "Dry Skin",
-            "H": "Poison Touch"
+            "0": "Poison Touch",
+            "1": "Poison Point",
+            "H": "Dry Skin"
         },
         "color": "Blue",
         "name": "Toxicroak",
         "heightm": 1.3,
         "weightkg": 44.4,
         "prevo": "Croagunk",
-        "evoLevel": 37,
+        "evoLevel": 30,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -26405,8 +26422,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Swift Swim",
-            "1": "Storm Drain",
-            "H": "Water Veil"
+            "H": "Storm Drain"
         },
         "color": "Blue",
         "name": "Finneon",
@@ -26445,15 +26461,14 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Swift Swim",
-            "1": "Storm Drain",
-            "H": "Water Veil"
+            "H": "Storm Drain"
         },
         "color": "Blue",
         "name": "Lumineon",
         "heightm": 1.2,
         "weightkg": 24.0,
         "prevo": "Finneon",
-        "evoLevel": 31,
+        "evoLevel": 21,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -28196,7 +28211,7 @@ exports.BattlePokedex = {
         "heightm": 0.8,
         "weightkg": 16.0,
         "prevo": "Snivy",
-        "evoLevel": 17,
+        "evoLevel": 16,
         "evoType": "level",
         "evoCondition": "",
         "evos": [
@@ -28443,11 +28458,12 @@ exports.BattlePokedex = {
         "heightm": 0.8,
         "weightkg": 24.5,
         "prevo": "Oshawott",
-        "evoLevel": 17,
+        "evoLevel": 16,
         "evoType": "level",
         "evoCondition": "",
         "evos": [
-            "Samurott"
+            "Samurott",
+            "Samurott-Hisui"
         ],
         "tier": "unobtainable"
     },
@@ -28535,6 +28551,10 @@ exports.BattlePokedex = {
         "weightkg": 58.2,
         "baseSpecies": "Samurott",
         "forme": "Hisui",
+        "prevo": "Dewott",
+        "evoMap": "Abandoned Ship",
+        "evoType": "levelMap",
+        "evoCondition": "",
         "tier": "unobtainable"
     },
     "patrat": {
@@ -29478,7 +29498,8 @@ exports.BattlePokedex = {
         "heightm": 1.7,
         "weightkg": 260.0,
         "prevo": "Boldore",
-        "evoType": "trade",
+        "evoItem": "Linking Cord",
+        "evoType": "useItem",
         "evoCondition": "",
         "tier": "unobtainable"
     },
@@ -29851,7 +29872,8 @@ exports.BattlePokedex = {
         "heightm": 1.4,
         "weightkg": 87.0,
         "prevo": "Gurdurr",
-        "evoType": "trade",
+        "evoItem": "Linking Cord",
+        "evoType": "useItem",
         "evoCondition": "",
         "tier": "unobtainable"
     },
@@ -30088,8 +30110,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Swarm",
-            "1": "Chlorophyll",
-            "H": "Overcoat"
+            "H": "Chlorophyll"
         },
         "color": "Yellow",
         "name": "Sewaddle",
@@ -30131,8 +30152,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Leaf Guard",
-            "1": "Chlorophyll",
-            "H": "Overcoat"
+            "H": "Chlorophyll"
         },
         "color": "Green",
         "name": "Swadloon",
@@ -30177,16 +30197,16 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Swarm",
-            "1": "Chlorophyll",
-            "H": "Overcoat"
+            "0": "Sharpness",
+            "H": "Chlorophyll"
         },
         "color": "Yellow",
         "name": "Leavanny",
         "heightm": 1.2,
         "weightkg": 20.5,
         "prevo": "Swadloon",
-        "evoType": "levelFriendship",
+        "evoLevel": 28,
+        "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
     },
@@ -30449,7 +30469,8 @@ exports.BattlePokedex = {
         "heightm": 0.5,
         "weightkg": 6.6,
         "evos": [
-            "Lilligant"
+            "Lilligant",
+            "Lilligant-Hisui"
         ],
         "tier": "unobtainable"
     },
@@ -30544,6 +30565,10 @@ exports.BattlePokedex = {
         "weightkg": 19.2,
         "baseSpecies": "Lilligant",
         "forme": "Hisui",
+        "prevo": "Petilil",
+        "evoItem": "Leaf Stone",
+        "evoType": "useItem",
+        "evoCondition": "",
         "tier": "unobtainable"
     },
     "basculin": {
@@ -31287,7 +31312,7 @@ exports.BattlePokedex = {
         "heightm": 1.4,
         "weightkg": 200.0,
         "prevo": "Dwebble",
-        "evoLevel": 34,
+        "evoLevel": 30,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -31375,7 +31400,7 @@ exports.BattlePokedex = {
         "heightm": 1.1,
         "weightkg": 30.0,
         "prevo": "Scraggy",
-        "evoLevel": 39,
+        "evoLevel": 28,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -33118,7 +33143,7 @@ exports.BattlePokedex = {
         "heightm": 0.8,
         "weightkg": 14.3,
         "prevo": "Joltik",
-        "evoLevel": 36,
+        "evoLevel": 26,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -33275,7 +33300,7 @@ exports.BattlePokedex = {
         "heightm": 0.6,
         "weightkg": 51.0,
         "prevo": "Klink",
-        "evoLevel": 38,
+        "evoLevel": 25,
         "evoType": "level",
         "evoCondition": "",
         "evos": [
@@ -33314,7 +33339,7 @@ exports.BattlePokedex = {
         "heightm": 0.6,
         "weightkg": 81.0,
         "prevo": "Klang",
-        "evoLevel": 49,
+        "evoLevel": 40,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -33391,7 +33416,7 @@ exports.BattlePokedex = {
         "heightm": 1.2,
         "weightkg": 22.0,
         "prevo": "Tynamo",
-        "evoLevel": 39,
+        "evoLevel": 16,
         "evoType": "level",
         "evoCondition": "",
         "evos": [
@@ -34133,7 +34158,7 @@ exports.BattlePokedex = {
         "heightm": 1.4,
         "weightkg": 35.5,
         "prevo": "Mienfoo",
-        "evoLevel": 50,
+        "evoLevel": 40,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -34381,8 +34406,9 @@ exports.BattlePokedex = {
         "heightm": 2.0,
         "weightkg": 120.0,
         "prevo": "Bisharp",
-        "evoType": "levelExtra",
-        "evoCondition": "after defeating 3 Pokémon which are holding a Leader's Crest",
+        "evoItem": "Leader's Crest",
+        "evoType": "useItem",
+        "evoCondition": "",
         "tier": "unobtainable"
     },
     "bouffalant": {
@@ -36239,9 +36265,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Pickup",
-            "1": "Cheek Pouch",
-            "H": "Huge Power"
+            "0": "Huge Power",
+            "H": "Cheek Pouch"
         },
         "color": "Brown",
         "name": "Bunnelby",
@@ -36280,9 +36305,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Pickup",
-            "1": "Cheek Pouch",
-            "H": "Huge Power"
+            "0": "Huge Power",
+            "H": "Cheek Pouch"
         },
         "color": "Brown",
         "name": "Diggersby",
@@ -36370,7 +36394,7 @@ exports.BattlePokedex = {
         "heightm": 0.7,
         "weightkg": 16.0,
         "prevo": "Fletchling",
-        "evoLevel": 17,
+        "evoLevel": 16,
         "evoType": "level",
         "evoCondition": "",
         "evos": [
@@ -36414,7 +36438,7 @@ exports.BattlePokedex = {
         "heightm": 1.2,
         "weightkg": 24.5,
         "prevo": "Fletchinder",
-        "evoLevel": 35,
+        "evoLevel": 30,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -36713,7 +36737,7 @@ exports.BattlePokedex = {
         "heightm": 1.5,
         "weightkg": 81.5,
         "prevo": "Litleo",
-        "evoLevel": 35,
+        "evoLevel": 30,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -36998,7 +37022,7 @@ exports.BattlePokedex = {
         "heightm": 1.7,
         "weightkg": 91.0,
         "prevo": "Skiddo",
-        "evoLevel": 32,
+        "evoLevel": 30,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -37606,9 +37630,9 @@ exports.BattlePokedex = {
         "heightm": 0.8,
         "weightkg": 5.0,
         "prevo": "Swirlix",
-        "evoItem": "Whipped Dream",
-        "evoType": "tradeItem",
-        "evoCondition": "while holding",
+        "evoLevel": 28,
+        "evoType": "level",
+        "evoCondition": "",
         "tier": "unobtainable"
     },
     "inkay": {
@@ -37938,7 +37962,7 @@ exports.BattlePokedex = {
         "heightm": 1.3,
         "weightkg": 35.3,
         "prevo": "Clauncher",
-        "evoLevel": 37,
+        "evoLevel": 20,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -39730,11 +39754,12 @@ exports.BattlePokedex = {
         "heightm": 0.7,
         "weightkg": 16.0,
         "prevo": "Rowlet",
-        "evoLevel": 17,
+        "evoLevel": 16,
         "evoType": "level",
         "evoCondition": "",
         "evos": [
-            "Decidueye"
+            "Decidueye",
+            "Decidueye-Hisui"
         ],
         "tier": "unobtainable"
     },
@@ -39823,6 +39848,10 @@ exports.BattlePokedex = {
         "weightkg": 37.0,
         "baseSpecies": "Decidueye",
         "forme": "Hisui",
+        "prevo": "Dartrix",
+        "evoMap": "Abandoned Ship",
+        "evoType": "levelMap",
+        "evoCondition": "",
         "tier": "unobtainable"
     },
     "litten": {
@@ -40464,8 +40493,8 @@ exports.BattlePokedex = {
             "Vikavolt-Totem"
         ],
         "prevo": "Charjabug",
-        "evoMap": "New Mauville",
-        "evoType": "levelMap",
+        "evoItem": "Thunder Stone",
+        "evoType": "useItem",
         "evoCondition": "",
         "tier": "unobtainable"
     },
@@ -40942,7 +40971,8 @@ exports.BattlePokedex = {
         ],
         "evos": [
             "Lycanroc",
-            "Lycanroc-Midnight"
+            "Lycanroc-Midnight",
+            "Lycanroc-Dusk"
         ],
         "tier": "unobtainable"
     },
@@ -41116,9 +41146,10 @@ exports.BattlePokedex = {
         "baseSpecies": "Lycanroc",
         "forme": "Dusk",
         "prevo": "Rockruff-Own-Tempo",
-        "evoLevel": 25,
+        "evoItem": "Dusk Stone",
         "evoType": "level",
         "evoCondition": "at dusk",
+        "evoLevel": 25,
         "tier": "unobtainable"
     },
     "wishiwashi": {
@@ -41593,7 +41624,7 @@ exports.BattlePokedex = {
             "Lurantis-Totem"
         ],
         "prevo": "Fomantis",
-        "evoLevel": 34,
+        "evoLevel": 24,
         "evoType": "level",
         "evoCondition": "during the day",
         "tier": "unobtainable"
@@ -41815,7 +41846,7 @@ exports.BattlePokedex = {
         "prevo": "Salandit",
         "evoLevel": 33,
         "evoType": "level",
-        "evoCondition": "if Female gender",
+        "evoCondition": "",
         "tier": "unobtainable"
     },
     "salazzlebase": {
@@ -41888,7 +41919,6 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Fluffy",
-            "1": "Klutz",
             "H": "Cute Charm"
         },
         "color": "Pink",
@@ -41929,7 +41959,6 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Fluffy",
-            "1": "Klutz",
             "H": "Unnerve"
         },
         "color": "Pink",
@@ -46031,9 +46060,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Strong Jaw",
+            "0": "Swift Swim",
             "1": "Shell Armor",
-            "H": "Swift Swim"
+            "H": "Strong Jaw"
         },
         "color": "Green",
         "name": "Chewtle",
@@ -46073,9 +46102,9 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Strong Jaw",
+            "0": "Swift Swim",
             "1": "Shell Armor",
-            "H": "Swift Swim"
+            "H": "Strong Jaw"
         },
         "color": "Green",
         "name": "Drednaw",
@@ -47065,7 +47094,6 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Rattled",
-            "1": "Static",
             "H": "Klutz"
         },
         "color": "Purple",
@@ -47107,7 +47135,6 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Punk Rock",
-            "1": "Plus",
             "H": "Technician"
         },
         "color": "Purple",
@@ -47201,7 +47228,6 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Punk Rock",
-            "1": "Minus",
             "H": "Technician"
         },
         "color": "Purple",
@@ -47462,8 +47488,8 @@ exports.BattlePokedex = {
         "heightm": 1.6,
         "weightkg": 39.0,
         "prevo": "Clobbopus",
-        "evoMove": "Taunt",
-        "evoType": "levelMove",
+        "evoLevel": 20,
+        "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
     },
@@ -47713,7 +47739,7 @@ exports.BattlePokedex = {
         "heightm": 0.6,
         "weightkg": 4.8,
         "prevo": "Hatenna",
-        "evoLevel": 32,
+        "evoLevel": 16,
         "evoType": "level",
         "evoCondition": "",
         "evos": [
@@ -47765,7 +47791,7 @@ exports.BattlePokedex = {
             "Hatterene-Gmax"
         ],
         "prevo": "Hattrem",
-        "evoLevel": 42,
+        "evoLevel": 32,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
@@ -48772,7 +48798,7 @@ exports.BattlePokedex = {
             "Copperajah-Gmax"
         ],
         "prevo": "Cufant",
-        "evoLevel": 34,
+        "evoLevel": 30,
         "evoType": "level",
         "evoCondition": "",
         "tier": "unobtainable"
