@@ -11746,8 +11746,8 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Overgrow",
-            "H": "Leaf Guard"
+            "0": "Triage",
+            "H": "Overgrow"
         },
         "color": "Green",
         "name": "Chikorita",
@@ -11787,8 +11787,8 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Overgrow",
-            "H": "Leaf Guard"
+            "0": "Triage",
+            "H": "Overgrow"
         },
         "color": "Green",
         "name": "Bayleef",
@@ -11832,8 +11832,8 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Overgrow",
-            "H": "Leaf Guard"
+            "0": "Triage",
+            "H": "Overgrow"
         },
         "color": "Green",
         "name": "Meganium",
@@ -28163,7 +28163,7 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Overgrow",
+            "0": "Solar Power",
             "H": "Contrary"
         },
         "color": "Green",
@@ -28203,7 +28203,7 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Overgrow",
+            "0": "Solar Power",
             "H": "Contrary"
         },
         "color": "Green",
@@ -28247,7 +28247,7 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Overgrow",
+            "0": "Solar Power",
             "H": "Contrary"
         },
         "color": "Green",
@@ -35849,8 +35849,8 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Overgrow",
-            "H": "Bulletproof"
+            "0": "Bulletproof",
+            "H": "Overgrow"
         },
         "color": "Green",
         "name": "Chespin",
@@ -35888,8 +35888,8 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Overgrow",
-            "H": "Bulletproof"
+            "0": "Bulletproof",
+            "H": "Overgrow"
         },
         "color": "Green",
         "name": "Quilladin",
@@ -35932,8 +35932,8 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Overgrow",
-            "H": "Bulletproof"
+            "0": "Bulletproof",
+            "H": "Overgrow"
         },
         "color": "Green",
         "name": "Chesnaught",
@@ -36975,8 +36975,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Sap Sipper",
-            "H": "Grass Pelt"
+            "0": "Grass Pelt",
+            "H": "Sap Sipper"
         },
         "color": "Brown",
         "name": "Skiddo",
@@ -37014,8 +37014,8 @@ exports.BattlePokedex = {
             "F": 0.5
         },
         "abilities": {
-            "0": "Sap Sipper",
-            "H": "Grass Pelt"
+            "0": "Grass Pelt",
+            "H": "Sap Sipper"
         },
         "color": "Brown",
         "name": "Gogoat",
@@ -39706,8 +39706,8 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Overgrow",
-            "H": "Long Reach"
+            "0": "Long Reach",
+            "H": "Overgrow"
         },
         "color": "Brown",
         "name": "Rowlet",
@@ -39746,8 +39746,8 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Overgrow",
-            "H": "Long Reach"
+            "0": "Long Reach",
+            "H": "Overgrow"
         },
         "color": "Brown",
         "name": "Dartrix",
@@ -39791,8 +39791,8 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Overgrow",
-            "H": "Long Reach"
+            "0": "Long Reach",
+            "H": "Overgrow"
         },
         "color": "Brown",
         "name": "Decidueye",
