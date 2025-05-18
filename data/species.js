@@ -11110,7 +11110,7 @@ exports.BattlePokedex = {
             "F": 0.125
         },
         "abilities": {
-            "0": "Pickup",
+            "0": "Guts",
             "1": "Thick Fat",
             "H": "Gluttony"
         },
@@ -30829,8 +30829,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Intimidate",
-            "1": "Moxie",
-            "H": "Anger Point"
+            "H": "Moxie"
         },
         "color": "Brown",
         "name": "Sandile",
@@ -30872,8 +30871,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Intimidate",
-            "1": "Moxie",
-            "H": "Anger Point"
+            "H": "Moxie"
         },
         "color": "Brown",
         "name": "Krokorok",
@@ -30917,8 +30915,7 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Intimidate",
-            "1": "Moxie",
-            "H": "Anger Point"
+            "H": "Moxie"
         },
         "color": "Red",
         "name": "Krookodile",
@@ -51399,8 +51396,8 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Purifying Salt",
-            "1": "Sturdy",
-            "H": "Clear Body"
+            "1": "Clear Body",
+            "H": "Sturdy"
         },
         "color": "Brown",
         "name": "Nacli",
@@ -51439,8 +51436,8 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Purifying Salt",
-            "1": "Sturdy",
-            "H": "Clear Body"
+            "1": "Clear Body",
+            "H": "Sturdy"
         },
         "color": "Brown",
         "name": "Naclstack",
@@ -51483,8 +51480,8 @@ exports.BattlePokedex = {
         },
         "abilities": {
             "0": "Purifying Salt",
-            "1": "Sturdy",
-            "H": "Clear Body"
+            "1": "Clear Body",
+            "H": "Sturdy"
         },
         "color": "Brown",
         "name": "Garganacl",
